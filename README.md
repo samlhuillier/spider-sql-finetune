@@ -11,3 +11,5 @@ This is a Lora fine-tune quantising the model to 8 bits. Therefore, you'll need 
 Inside the openai folder there are two notebooks and the two dataset files (formatted for OpenAI):
 - openai_train.ipynb loads the datasets and sends them to OpenAI to fine-tune GPT 3.5
 - openai_dataset_analytics.ipynb reads an OpenAI dataset jsonl file and works out whether there are any errors in the file and the total number of tokens in the dataset.
+
+My full post on the results of this is [here](https://ragntune.com/blog/gpt3.5-vs-llama2-finetuning)!
